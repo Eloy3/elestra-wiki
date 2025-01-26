@@ -109,8 +109,8 @@ const Sidebar = () => {
                               to={page.path}
                               className={`block py-2 px-4 rounded-lg ${
                                 location.pathname === page.path
-                                  ? 'bg-blue-100 dark:bg-blue-900 sepia:bg-amber-200'
-                                  : 'hover:bg-gray-100 dark:hover:bg-gray-700 sepia:hover:bg-amber-100'
+                                  ? 'bg-blue-100 dark:bg-blue-900 sepia:bg-amber-200 text-gray-800 dark:text-white sepia:text-amber-900'
+                                  : 'hover:bg-gray-100 dark:hover:bg-gray-700 sepia:hover:bg-amber-100 text-gray-600 dark:text-gray-300 sepia:text-amber-800'
                               }`}
                             >
                               {page.title}
